@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "mv subdirectory/api/ . ; ls"
+    "build": "mv subdirectory/api/ . ; ls",
+    "install": "npm i ; npm run build"
   },
   "repository": {
     "type": "git",
